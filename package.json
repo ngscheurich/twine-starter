@@ -1,0 +1,47 @@
+{
+  "name": "twine-starter",
+  "version": "0.1.0",
+  "description": "📖 Boilerplate that I use as a starting point for my Twine games.",
+  "main": "./src/index.js",
+  "repository": "https://github.com/ngscheurich/twine-starter",
+  "author": {
+    "name": "N. G. Scheurich",
+    "email": "nick@scheurich.me"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server dist & webpack --watch --config webpack.dev.js & tweego -f harlowe-2 -o dist/index.html -w story",
+    "build": "webpack --config webpack.prod.js && tweego -f harlowe-2 -o dist/index.html story"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.2",
+    "eslint": "^5.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^3.8.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.2",
+    "postcss": "^6.0.23",
+    "postcss-loader": "^2.1.6",
+    "postcss-preset-env": "^5.2.2",
+    "prettier": "^1.13.7",
+    "style-loader": "^0.21.0",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^0.8.1",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3"
+  }
+}

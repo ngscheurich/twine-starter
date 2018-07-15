@@ -1,0 +1,27 @@
+@custom-media --viewport-medium (width <= 50rem);
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:root {
+  --mainColor: #12345678;
+}
+
+tw-story {
+  font-family: system-ui, sans-serif;
+  color: var(--mainColor);
+  overflow-wrap: break-word;
+  background-color: #eee;
+}
+
+:--heading {
+  @media (--viewport-medium) {
+    margin-block: 0;
+  }
+}
+
+a {
+  color: rebeccapurple;
+
+  &:hover {
+    color: color-mod(var(--mainColor) alpha(80%));
+  }
+}
