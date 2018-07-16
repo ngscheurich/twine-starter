@@ -10,8 +10,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "live-server dist & webpack --watch --config webpack.dev.js & tweego -f harlowe-2 -o dist/index.html -w story",
-    "build": "webpack --config webpack.prod.js && tweego -f harlowe-2 -o dist/index.html story"
+    "start": "./bin/start",
+    "build": "./bin/build"
   },
   "dependencies": {},
   "devDependencies": {

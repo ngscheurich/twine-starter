@@ -1,0 +1,3 @@
+#!/bin/sh
+webpack --config webpack.prod.js && \
+tweego -f harlowe-2 -o dist/index.html story
