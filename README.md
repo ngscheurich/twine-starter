@@ -20,7 +20,7 @@ I guess that’s it but man does this thing _offer_ all that, you know?
 
 ## Getting started
 
-First of all, you’ve got to have [Tweego](https://www.motoslave.net/tweego/) installed on your machine—that’s the dark magick that makes this all work!
+First of all, you’ve got to have [Tweego](https://www.motoslave.net/tweego/) installed on your machine—it’s the dark magick that makes a lot of this work.
 
 Once you’ve gotten that taken care of, clone this repo but name it something cooler:
 
