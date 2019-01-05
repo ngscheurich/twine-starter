@@ -1,9 +1,9 @@
 <p align="center"><img alt="Twine Starter Kit" src="src/images/banner.png" width="378" height="282"></p>
 <br>
 
-Have you been wanting to start a project with [Twine](http://twinery.org/)/Twee but just _don’t have the time_ to set up a good dev/build process? Well boy howdy have you come to the right place! My **Twine Starter Kit** offers everything you need and more, including:
+Have you been wanting to start a project with [Twine](http://twinery.org/)/Twee but just _don’t have the time_ to set up a good dev/build process? Well boy howdy have you come to the right place! This **Twine Starter Kit** offers everything you need and more, including:
 
-- Multi-file stories courtesy of [Tweego](https://www.motoslave.net/tweego/)
+- Command line compilation courtesy of [Tweego](https://www.motoslave.net/tweego/)
 - ES2015 and PostCSS support
 - Dev server with live reloading
 - Linting tools
@@ -40,7 +40,7 @@ To spin up the dev server, just:
 
     $ yarn start
 
-You should now have a web server listening—and serving your game—at http://localhost:8080. Cool.
+You should now have a web server serving your game at http://localhost:8080. Cool.
 
 ## Production
 
