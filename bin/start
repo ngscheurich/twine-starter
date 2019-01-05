@@ -1,4 +1,4 @@
 #!/bin/sh
 node_modules/.bin/live-server --no-browser dist & \
 node_modules/.bin/webpack --watch --config webpack.dev.js & \
-tweego -w -o dist/index.html story
+tweego -t -w -o dist/index.html story
