@@ -1,4 +1,4 @@
 #!/bin/sh
-live-server --no-browser dist & \
-webpack --watch --config webpack.dev.js & \
-tweego -f harlowe-2 -o dist/index.html -w story
+node_modules/.bin/live-server --no-browser dist & \
+node_modules/.bin/webpack --watch --config webpack.dev.js & \
+tweego -w -o dist/index.html story

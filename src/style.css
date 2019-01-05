@@ -5,7 +5,7 @@
   --mainColor: #12345678;
 }
 
-tw-story {
+body {
   font-family: system-ui, sans-serif;
   color: var(--mainColor);
   overflow-wrap: break-word;
@@ -24,4 +24,8 @@ a {
   &:hover {
     color: color-mod(var(--mainColor) alpha(80%));
   }
+}
+
+#story-title {
+  color: white;
 }
