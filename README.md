@@ -1,6 +1,3 @@
-<p align="center"><img alt="Twine Starter Kit" src="src/images/banner.png" width="378" height="282"></p>
-<br>
-
 Have you been wanting to start a project with [Twine](http://twinery.org/)/Twee but just _don’t have the time_ to set up a good dev/build process? Well boy howdy have you come to the right place! This **Twine Starter Kit** offers everything you need and more, including:
 
 - Command line compilation courtesy of [Tweego](https://www.motoslave.net/tweego/)
